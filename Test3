@@ -1,0 +1,12 @@
+ public void ActiveLink()
+        {
+            IWebDriver webDriver = new ChromeDriver(@"D:\SEM 4");
+
+            webDriver.Navigate().GoToUrl("file:///D:/SEM%204/SOFTWARE%20QUALITY/Assignment%203/index.html");
+
+            IWebElement ActiveLink = webDriver.FindElement(By.LinkText("2022 - komalSaleYourVehicle.com"));
+           
+            ActiveLink.Click();
+
+            Assert.Pass();
+        }
