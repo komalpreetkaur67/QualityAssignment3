@@ -24,3 +24,4 @@ public void InvalidPostalCodeField()
             Assert.Pass();
 
         }
+        This test is for invalid Postal Code
